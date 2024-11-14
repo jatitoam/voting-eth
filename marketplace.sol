@@ -15,7 +15,7 @@ contract TicMarketplace is ERC721, ERC721Enumerable, Ownable {
     {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "http://20.115.208.189/ticmarkeplace/tokens/";
+        return "http://20.115.208.189/ticmarketplace/tokens/";
     }
 
     function safeMint(address to) public onlyOwner {
